@@ -1,0 +1,105 @@
+img{
+    margin-top: 0;
+    width: 110px;
+    height: 110px;
+}
+
+body{
+    margin: 0;
+    margin-top: 58px;
+}
+
+nav{
+    background-color: rgb(202, 202, 202);
+    display: flex;
+    font-family: sans-serif;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 2px rgb(125, 51, 185) solid;
+}
+
+.navbar{
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    
+}
+
+.navbar > div{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    margin-top:10px ;
+    width: 100px;
+    font-size: 20px;
+ 
+}
+.navbar > div > a{
+    background-color: rgb(143, 143, 143);
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+    border: 1px solid rgb(125, 51, 185);
+}
+.navbar > div > a:hover{
+    background-color: rgb(119, 119, 119);
+}
+
+.navbar:hover >div{
+    display: flex;
+}
+
+
+input{
+    border-radius: px;
+    margin-left: 18px;
+    height: 50px;
+    width: 510px;
+    padding-left: 10px;
+}
+
+.pesquisa{
+    margin-left: 20px;
+    background-color: white;
+    color: rgb(33, 33, 33);
+    border-radius: 50px;
+    padding: 0 10px;
+    border: 1px solid rgb(125, 51, 185);
+
+
+    > input{
+        border: none;
+    }
+}
+p{
+    font-family: sans-serif;
+    margin-left: 10px;
+    
+    a{
+        text-decoration: none;
+        color: rgb(54, 54, 54);
+    }
+    a:hover{
+        color: rgb(125, 51, 185);
+    }
+}
+
+i{
+    margin-left: 20px;
+    width: 18px;
+    height: 18px;
+    color: rgb(54, 54, 54);
+    font-size: 50px;
+}
+i:hover{
+    color: rgb(125, 51, 185);
+}
+
